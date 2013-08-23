@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RakeDbDump::VERSION
   spec.authors       = ["Daniel Stutzman"]
   spec.email         = ["dtstutz@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "Provides a rake db:dump task so no SQL client is needed"
+  spec.summary       = "Provides a rake db:dump task so no SQL client is needed"
+  spec.homepage      = "https://github.com/danielstutzman/rake_db_dump"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
